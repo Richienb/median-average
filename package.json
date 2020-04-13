@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "median-average",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Get the median of an array of numbers.",
+	"repository": "https://github.com/Richienb/median-average.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,8 +17,17 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"math",
+		"average",
+		"total",
+		"sum",
+		"median"
+	],
+	"dependencies": {
+		"mean-average": "^1.0.0",
+		"num-sort": "^2.0.0"
+	},
 	"devDependencies": {
 		"ava": "^3.6.0",
 		"eslint-config-richienb": "^0.4.2",

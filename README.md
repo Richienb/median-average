@@ -1,41 +1,33 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# median-average [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/median-average/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/median-average)
 
-My awesome module.
+Get the median of an array of numbers.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/median-average.png)](https://npmjs.com/package/median-average)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install median-average
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const medianAverage = require("median-average");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+medianAverage([1, 2, 6]);
+//=> 2
+
+medianAverage([1, 2, 6, 8]);
+//=> 4
 ```
 
 ## API
 
-### theModule(input, options?)
+### medianAverage(array)
 
-#### input
+#### array
 
-Type: `string`
+Type: `array<number>`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The array to get the median of.
