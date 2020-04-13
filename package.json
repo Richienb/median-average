@@ -1,6 +1,6 @@
 {
 	"name": "median-average",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get the median of an array of numbers.",
 	"repository": "https://github.com/Richienb/median-average.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
