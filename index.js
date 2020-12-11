@@ -12,7 +12,7 @@ module.exports = array => {
 		return NaN
 	}
 
-	const sortedArray = array.sort(numberSort.ascending)
+	const sortedArray = [...array].sort(numberSort.ascending)
 
 	if (sortedArray.length % 2 === 0) {
 		return meanAverage([sortedArray[(sortedArray.length / 2) - 1], sortedArray[(sortedArray.length / 2)]])
